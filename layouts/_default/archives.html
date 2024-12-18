@@ -1,0 +1,118 @@
+{{ define "main" }}
+<section class="archives-page">
+  <h1 class="title">{{ .Title }}</h1>
+
+  <!-- Search Box -->
+  <div class="search-container">
+    <input
+      type="text"
+      id="search"
+      placeholder="Search posts..."
+      class="search-box"
+      aria-label="Search through posts"
+    />
+  </div>
+
+  <!-- Posts Container -->
+  <div id="post-list" class="post-grid">
+    {{ range .Site.RegularPages.ByDate.Reverse }}
+      <div class="post-card">
+        <a href="{{ .Permalink }}">
+          <h2 class="post-title">{{ .Title }}</h2>
+          <p class="post-summary">{{ .Summary }}</p>
+          <span class="post-date">{{ .Date.Format "Jan 2, 2006" }}</span>
+        </a>
+      </div>
+    {{ end }}
+  </div>
+</section>
+
+<!-- JavaScript for Search -->
+<script>
+  document.getElementById('search').addEventListener('input', function (event) {
+    const query = event.target.value.toLowerCase();
+    const posts = document.querySelectorAll('.post-card');
+
+    posts.forEach(post => {
+      const title = post.querySelector('.post-title').textContent.toLowerCase();
+      const summary = post.querySelector('.post-summary').textContent.toLowerCase();
+
+      if (title.includes(query) || summary.includes(query)) {
+        post.style.display = 'block';
+      } else {
+        post.style.display = 'none';
+      }
+    });
+  });
+</script>
+
+<!-- Styling -->
+<style>
+  .archives-page {
+    padding: var(--content-padding);
+    font-family: var(--font-family-body);
+  }
+
+  .title {
+    font-family: var(--font-family-heading);
+    font-size: var(--font-size-xl);
+    margin-bottom: 1rem;
+  }
+
+  .search-container {
+    margin-bottom: 1.5rem;
+    
+  }
+
+  .search-box {
+    width: 100%;
+    padding: 0.75rem;
+    font-size: var(--font-size-base);
+    border: 1px solid var(--color-border);
+    border-radius: var(--radius);
+    font-family: var(--font-family-body);
+    color: inherit;
+  }
+
+  .post-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 1.5rem;
+  }
+
+  .post-card {
+    border: 1px solid var(--color-border);
+    border-radius: var(--radius);
+    padding: 1rem;
+    background-color: var(--color-bg-secondary);
+    transition: box-shadow 0.2s ease, transform 0.2s ease;
+  }
+
+  .post-card:hover {
+    transform: scale(1.02);
+    box-shadow: var(--box-shadow-hover);
+  }
+
+  .post-card a {
+    text-decoration: none;
+    color: inherit;
+  }
+
+  .post-title {
+    font-family: var(--font-family-heading);
+    font-size: var(--font-size-lg);
+    margin: 0 0 0.5rem;
+  }
+
+  .post-summary {
+    font-size: var(--font-size-sm);
+    color: var(--color-text-secondary);
+    margin-bottom: 0.5rem;
+  }
+
+  .post-date {
+    font-size: var(--font-size-xs);
+    color: var(--color-text-tertiary);
+  }
+</style>
+{{ end }}

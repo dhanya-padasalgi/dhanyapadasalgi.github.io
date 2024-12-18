@@ -4,7 +4,7 @@ title: "Mathematical Representation of Images"
 date: 2024-12-04
 draft: true
 summary: this is summary of post 1
-tag: [ "math","images"]
+
 ---
 
 

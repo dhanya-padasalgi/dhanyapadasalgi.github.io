@@ -2,30 +2,23 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Posts on Dhanya Padasalgi</title>
-    <link>http://localhost:40421/posts/</link>
+    <link>https://dhanya-padasalgi.github.io/dhanyapadasalgi.github.io/posts/</link>
     <description>Recent content in Posts on Dhanya Padasalgi</description>
     <image>
       <title>Dhanya Padasalgi</title>
-      <url>http://localhost:40421/images/papermod-cover.png</url>
-      <link>http://localhost:40421/images/papermod-cover.png</link>
+      <url>https://dhanya-padasalgi.github.io/dhanyapadasalgi.github.io/images/papermod-cover.png</url>
+      <link>https://dhanya-padasalgi.github.io/dhanyapadasalgi.github.io/images/papermod-cover.png</link>
     </image>
     <generator>Hugo -- 0.140.0</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 04 Dec 2024 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:40421/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 09 Dec 2024 05:30:00 +0000</lastBuildDate>
+    <atom:link href="https://dhanya-padasalgi.github.io/dhanyapadasalgi.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Types of Learning</title>
-      <link>http://localhost:40421/posts/learning-types/</link>
-      <pubDate>Wed, 04 Dec 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:40421/posts/learning-types/</guid>
+      <link>https://dhanya-padasalgi.github.io/dhanyapadasalgi.github.io/posts/learning-types/</link>
+      <pubDate>Mon, 09 Dec 2024 05:30:00 +0000</pubDate>
+      <guid>https://dhanya-padasalgi.github.io/dhanyapadasalgi.github.io/posts/learning-types/</guid>
       <description>Types of Learning- Supervised, Unsupervised, Semi-Supervised and Reinforcement Learning</description>
-    </item>
-    <item>
-      <title>Computer Understanding??</title>
-      <link>http://localhost:40421/posts/computer-undersatnding/</link>
-      <pubDate>Mon, 04 Nov 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:40421/posts/computer-undersatnding/</guid>
-      <description>Learning computer&amp;rsquo;s approch to making sense of the world. Basics of Rule Based and Learning Based Systems with primary idea about Algorithms and Models.</description>
     </item>
   </channel>
 </rss>

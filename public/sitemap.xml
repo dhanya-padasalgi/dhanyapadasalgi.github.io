@@ -2,24 +2,21 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://localhost:40421/</loc>
-    <lastmod>2024-12-04T00:00:00+00:00</lastmod>
+    <loc>https://dhanya-padasalgi.github.io/dhanyapadasalgi.github.io/</loc>
+    <lastmod>2024-12-19T05:30:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:40421/posts/</loc>
-    <lastmod>2024-12-04T00:00:00+00:00</lastmod>
+    <loc>https://dhanya-padasalgi.github.io/dhanyapadasalgi.github.io/posts/</loc>
+    <lastmod>2024-12-19T05:30:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:40421/posts/learning-types/</loc>
-    <lastmod>2024-12-04T00:00:00+00:00</lastmod>
+    <loc>https://dhanya-padasalgi.github.io/dhanyapadasalgi.github.io/posts/learning-types/</loc>
+    <lastmod>2024-12-09T05:30:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:40421/posts/computer-undersatnding/</loc>
-    <lastmod>2024-11-04T00:00:00+00:00</lastmod>
+    <loc>https://dhanya-padasalgi.github.io/dhanyapadasalgi.github.io/archives/</loc>
   </url><url>
-    <loc>http://localhost:40421/archives/</loc>
+    <loc>https://dhanya-padasalgi.github.io/dhanyapadasalgi.github.io/categories/</loc>
   </url><url>
-    <loc>http://localhost:40421/categories/</loc>
+    <loc>https://dhanya-padasalgi.github.io/dhanyapadasalgi.github.io/series/</loc>
   </url><url>
-    <loc>http://localhost:40421/series/</loc>
-  </url><url>
-    <loc>http://localhost:40421/tags/</loc>
+    <loc>https://dhanya-padasalgi.github.io/dhanyapadasalgi.github.io/tags/</loc>
   </url>
 </urlset>

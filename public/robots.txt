@@ -1,3 +1,3 @@
 User-agent: *
 Disallow:
-Sitemap: http://localhost:40421/sitemap.xml
+Sitemap: https://dhanya-padasalgi.github.io/dhanyapadasalgi.github.io/sitemap.xml

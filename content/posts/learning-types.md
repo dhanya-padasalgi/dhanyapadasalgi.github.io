@@ -1,6 +1,6 @@
 ---
 title: "Types of Learning"
-date: Dec 12, 2024
+date: 2024-12-09T05:30:00Z
 draft: false
 summary: Types of Learning- Supervised, Unsupervised, Semi-Supervised and Reinforcement Learning
 

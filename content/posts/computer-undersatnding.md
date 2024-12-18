@@ -1,6 +1,6 @@
 ---
 title: "Computer Understanding??"
-date: Dec 09, 2024
+date: 2024-12-19T05:30:00Z
 draft: false
 summary: Learning computer's approch to making sense of the world. Basics of Rule Based and Learning Based Systems with primary idea about Algorithms and Models. 
 

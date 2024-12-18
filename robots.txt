@@ -1,0 +1,3 @@
+User-agent: *
+Disallow:
+Sitemap: https://dhanya-padasalgi.github.io/dhanyapadasalgi.github.io/sitemap.xml
